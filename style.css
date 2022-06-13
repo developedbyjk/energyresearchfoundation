@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body 
+{
+	margin: 0;
+    padding: 0;
+
+    font-family: 'poppins',sans-serif;
+}
+#header_logo{
+   
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+
+}
+
+/* NAVIGATION STYLE */
+.navbar{
+   
+    width: 100%;
+
+    overflow: auto;
+
+    background-color: #005bff;
+
+    
+
+    
+}
+
+.navbar a{
+    font-weight: bold;
+    float: left;
+  padding: 12px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.7rem;
+  width: 25%; 
+  text-align:center ;
+ border-left: 1px solid white;
+  margin: 0;
+  
+}
+
+.more_content {
+  display: none;
+
+}
+
+.more_content a{
+    width: 100%;
+    border: 1px solid white;
+    font-weight: lighter;
+  
+}
+ a:hover{
+    background-color: crimson;
+}
+
+.mymore:hover .more_content{
+    display: block;
+}
