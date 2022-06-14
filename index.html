@@ -41,18 +41,11 @@
 
         <div class="slider">
             <div class="slider_box" id="no1"></div>
-            <div class="slider_box" id="no2"></div>
-            <div class="slider_box" id="no3"></div>
+        </div>
 
-            <button class="pre" onclick="plusSlides(-1)">
-                <span class="material-symbols-outlined">
-                    arrow_back
-                </span>
-            </button>
-            <button class="nex" onclick="plusSlides(1)">
-                <span class="material-symbols-outlined">
-                    arrow_forward
-            </span>
+        <!-- THIS IS FOR MEMEBERS -->
+        <div class="members_container">
+            <div class="member_box"></div>
         </div>
 
 
@@ -61,28 +54,8 @@
     <footer>
 
     </footer>
-    <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+    <script src="script.js"></script>
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function showSlides(n){
-    var i ;
-    var slides = document.getElementsByClassName("box");
-    if(n>slides.length){slideIndex = 1}
-    if(n<1){slideIndex=slides.length}
-
-    for(i=0;i<slides.length;i++){
-        slides[i].style.display = "none";
-    }
-
-    slides[slideIndex-1].style.display = "block";
-}
-    </script>
 
 </body>
 </html>
