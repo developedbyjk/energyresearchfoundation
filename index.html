@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,11 +39,50 @@
 
     <section>
 
+        <div class="slider">
+            <div class="slider_box" id="no1"></div>
+            <div class="slider_box" id="no2"></div>
+            <div class="slider_box" id="no3"></div>
+
+            <button class="pre" onclick="plusSlides(-1)">
+                <span class="material-symbols-outlined">
+                    arrow_back
+                </span>
+            </button>
+            <button class="nex" onclick="plusSlides(1)">
+                <span class="material-symbols-outlined">
+                    arrow_forward
+            </span>
+        </div>
+
+
     </section>
 
     <footer>
 
     </footer>
-    <script src="script.js">
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n){
+    var i ;
+    var slides = document.getElementsByClassName("box");
+    if(n>slides.length){slideIndex = 1}
+    if(n<1){slideIndex=slides.length}
+
+    for(i=0;i<slides.length;i++){
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex-1].style.display = "block";
+}
+    </script>
+
 </body>
 </html>

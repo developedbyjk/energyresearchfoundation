@@ -63,3 +63,56 @@ body
 .mymore:hover .more_content{
     display: block;
 }
+
+/* THIS IS FOR STYLE OF SLIDER */
+
+.slider_box{
+  
+    height: 40vh;
+    width: 90%;
+    margin:6% auto;
+    display: none;
+    border-radius: 7px;
+    background-color: tomato;
+}
+
+#no1{
+    background-color: crimson;
+}
+
+#no2{
+    background-color: gold;
+}
+
+#no3{
+    background-color: dodgerblue;
+}
+
+button{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    background-color: aliceblue;
+}
+.pre{
+    top: 30vh;
+}
+.nex{
+    top: 30vh;
+    right: 0px;
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {opacity:0; transform: scale(0.5);} 
+  to {opacity: 1; transform: scale(1);}
+}
