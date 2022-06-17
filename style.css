@@ -122,4 +122,51 @@ margin: auto;
 }
 
 
+/* HERES STYLE OF ACCORDIANS */
+.accordion {
+  width: 85%;
+  display: block;
+  margin: 5px auto;
+   font-family: 'Playfair Display', serif;
+   padding: 15px;
+   font-size: 1.5rem;
+   font-weight: bold;
+   transition: 0.5s;
+   border-radius: 5px;
+   border: 1px solid black;
+  
+}
 
+
+.accordion:after {
+content: '\002B';
+color: black;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.panel{
+  width: 85%;
+  margin: 5px auto;
+    max-height: 0;
+     overflow: hidden;
+     background-color: #eee;
+}
+
+.panel p{
+
+ 
+}
+
+.newclass, button:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+.newclass:after {
+content: "\2212";
+}
+
+/* END OF STYLE OF ACCORDIANS */
