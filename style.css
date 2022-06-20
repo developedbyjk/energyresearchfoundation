@@ -170,3 +170,84 @@ content: "\2212";
 }
 
 /* END OF STYLE OF ACCORDIANS */
+
+
+/* STATING OF WHAT WE SO SSECTION */
+
+.whatwedo{
+  margin: 50px auto;
+}
+.whatwedo #heading {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.whatwedo_container{
+  display: flex;
+  margin: 5%;
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.whatwedo_box{
+  height: 100px;
+  width: 100px;
+  /* background-color: #005bff; */
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 6px 24px 0px rgba(0,0,0,0.1);
+   text-align: center;
+}
+
+.whatwedo_box p{
+  position:relative;
+  margin-top: 0px;
+  line-height: 20px;
+
+  color: black;
+  font-weight: 600;
+}
+
+.whatwedo_box span{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#solarbox{
+  border: 2px solid#FFC800;
+  background-color: #ffc8001e;
+}
+
+#windbox{
+  border: 2px solid crimson;
+  background-color:  rgba(220, 20, 60, 0.185);
+}
+#hydrobox{
+  border: 2px solid#1e90ff;
+  background-color: #1e8fff36;
+}
+#biobox{
+  border: 2px solid#27AE60;
+  background-color: #27ae5f2f;
+}
+
+
+/* CONTACT US PAGE CSS */
+.container_contact {
+  
+  background-color: #1e90ff;
+  width: 90%;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+
+.container_contact p {
+  margin: 0;
+}
+
