@@ -30,7 +30,7 @@ margin: auto;
 
     overflow: auto;
 
-    background-color: #005bff;
+    background-color: #185adb;;
 
     
 }
@@ -79,8 +79,61 @@ margin: auto;
 }
 
 #no1{
-    background-color: dodgerblue;
+    background-color: #185adb;
 }
+
+/* THIS IS FOR CHAIRMAN SECTION */
+.chairman_section{
+  background: #36D1DC;  /* fallback for old browsers */
+
+background: linear-gradient(180deg, #185adb, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 830px;
+  width: 100%;
+  margin: 100px auto;
+  overflow: hidden;
+
+}
+
+.chairman_section h2{
+  text-align: center;
+  
+  margin: 5px auto;
+  padding-top: 30px;
+  color: white;
+}
+
+.chairman_section p{
+  margin-top: 0px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+#chairmanimg{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 400px;
+  width: auto;
+  z-index: -1;
+  
+}
+.chairman_section span{
+  display: block;
+  background-color: #ffc107;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+}
+#nameofchairman{
+  padding: 10px;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  font-weight: bolder;
+}
+
 /* THIS IS FOR MEMBERS ADDITON */
 
 .members_container{
@@ -119,6 +172,7 @@ margin: auto;
 #title_for_members{
   text-align: center;
   font-family: 'Playfair Display', serif;
+  display: block;
 }
 
 
@@ -232,6 +286,23 @@ content: "\2212";
   border: 2px solid#27AE60;
   background-color: #27ae5f2f;
 }
+#talentbox{
+  border: 2px solid #fd71af;
+  background-color: #fd71b02f;
+}
+#manpowerbox{
+  border: 2px solid#7B68EE;
+  background-color: #7c68ee36;
+}
+#helpingbox{
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.158);
+}
+#socialbox{
+  border: 2px solid gold;
+  background-color: rgba(255, 217, 0, 0.281);
+}
+
 
 
 /* CONTACT US PAGE CSS */
