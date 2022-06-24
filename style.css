@@ -11,67 +11,86 @@ body
     font-family: 'poppins',sans-serif;
 }
 header{
+  height: 100px;
+  width: ;
   margin: 0;
   background-color: aliceblue;
 }
 #header_logo{
-padding: 5% 0%;
+padding: 10px 0%;
 margin: auto;
   width: 80%;
   display: block;
+  float: left;
   
 
 }
 
 /* NAVIGATION STYLE */
-.navbar{
-  
-    width: 100%;
 
-    overflow: auto;
-
-    background-color: #185adb;;
-
-    
+/* THIS IS FOR NAVIGATION  */
+.nav_symbol{
+  position: absolute;
+  color: blue;
+  font-size: 2rem;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+.nav_panel{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0px;
+  background-color:whitesmoke;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  border-radius: ;
+  z-index: 200;
 }
 
-.navbar a{
-    font-weight: bold;
-    float: left;
-  padding: 12px 10px;
-  color: white;
+.close_nav_icon{
+  position: absolute;
+   color:#005bff ;
+  font-size: 2rem;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background-color: ;
+}
+.content a{
+  padding: 10px;
   text-decoration: none;
-  font-size: 0.7rem;
-  width: 25%; 
-  text-align:center ;
- border-left: 1px solid white;
-  margin: 0;
-  
-}
-
-.more_content {
-  display: none;
+  color: #005bff;
+  font-family: 'poppins','sans-serif';
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+ 
 
 }
-
-.more_content a{
-    width: 100%;
-    border: 1px solid white;
-    font-weight: lighter;
-  
-}
- a:hover{
-    background-color: crimson;
-}
-
-.mymore:hover .more_content{
-    display: block;
+#navline{
+  margin-top: -10px;
+  height: 2px;
+  border:0px;
+  outline: 0px;
+  background-color:#005bff;
 }
 
 /* THIS IS FOR STYLE OF SLIDER */
 
 .slider_box{
-    height: 40vh;
+    height: 70vh;
     width: 90%;
     margin:6% auto;
     border-radius: 5px;

@@ -14,4 +14,13 @@ for(i=0;i<button.length;i++){
         }
     })
 }
+
+// THIS IF FOR NAVIGATION
+function opennav(){
+    document.getElementById("panelid").style.width="100%";
+}
+
+function closenav(){
+    document.getElementById("panelid").style.width="0%";
+}
 // END OF SCRIPT OF ACCORDIAN

@@ -20,23 +20,38 @@
     </header>
 
     
-    <nav>
+  
             
-        <div class="navbar">
-            <a href="#" class="active"> HOME </a>
-            <a href="about.html">ABOUT </a>
-            <a href="contact.html">CONTACT</a>
-            <div class="mymore">
-            <a href="#">MORE <i class="fa fa-caret-down"></i></a>
-            <div class="more_content">
-                <a href="#">Sign in</a>
-                <a href="#">Sign out</a>
-                <a href="#">Help</a>
+        <nav>
+            <div class="nav_symbol">
+                <span class="material-symbols-outlined" onclick="opennav()">
+                    menu
+                    </span>
+                </div>
+            
+            <div class="nav_panel" id="panelid">
+                <span class="material-symbols-outlined close_nav_icon" onclick="closenav()">
+                    close
+                    </span>
+               
+            
+            <div class="content">
+               
+               <a href="#">Home</a>
+               <hr style="width:100%" id="navline">
+               <a href="#">News</a>
+               <hr style="width:100%" id="navline">
+               <a href="#">More</a>
+               <hr style="width:100%" id="navline">
+               <a href="#">Blog</a>
+               <hr style="width:100%" id="navline">
+            
             </div>
             </div>
-        </div>
+        </nav>
+       <!--this is for the text animation-->
         
-    </nav>
+  
 
     <section>
 
