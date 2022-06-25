@@ -135,6 +135,15 @@ margin: auto;
   background-color: white;
   color: #005bff;
 }
+/* THIS IF FOR LOTTIE FEATURES SECTION */
+.featuresoftrust {
+ 
+}
+.featuresoftrust .f1{
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+
+}
 
 /* THIS IS FOR CHAIRMAN SECTION */
 .chairman_section{
