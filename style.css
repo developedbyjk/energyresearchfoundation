@@ -90,7 +90,7 @@ margin: auto;
 /* THIS IS FOR STYLE OF SLIDER */
 
 .slider_box{
-    height: 70vh;
+    height: auto;
     width: 90%;
     margin:6% auto;
     border-radius: 5px;
@@ -127,6 +127,7 @@ margin: auto;
   border-radius: 90px;
   text-align: center;
   padding: 12px;
+  margin-bottom: 50px;
  
 }
 .slider_box_button:hover{
