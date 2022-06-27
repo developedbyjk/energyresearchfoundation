@@ -368,6 +368,11 @@ content: "\2212";
   background-color: rgba(255, 217, 0, 0.281);
 }
 
+/* THIS STYEL IS FOR FAQS SECTION */
+.faqs{
+  margin: 100px 10px;
+  text-align: center;
+}
 
 
 /* CONTACT US PAGE CSS */
@@ -382,8 +387,29 @@ content: "\2212";
   font-size: 1.3rem;
 }
 
+/* ABOVE FOOTER SECTION */
+.abovefooter h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 200px 0px 0px 0px;
+}
+#ltiabovefooter{
+  overflow: hidden;
+   
+}
 
+
+/* THIS STYLE IS FOR FOOTER section */
+footer{
+  height: 400px;
+  width: 100%;
+  background-color: #005bff;
+}
 .container_contact p {
   margin: 0;
 }
+
+
 
