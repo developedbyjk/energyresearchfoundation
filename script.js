@@ -1,4 +1,9 @@
 
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+
 // HERS LITTLE JS FOR THE WORKING OF ACCORDIAN
 var button = document.getElementsByClassName("accordion");
 var i;
