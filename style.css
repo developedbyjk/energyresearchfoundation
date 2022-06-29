@@ -17,6 +17,8 @@ header{
   background-color: aliceblue;
 }
 #header_logo{
+  background-color: aliceblue;
+  width: 100%;
 padding: 10px 0%;
 margin: auto;
   width: 80%;
@@ -403,10 +405,42 @@ content: "\2212";
 
 /* THIS STYLE IS FOR FOOTER section */
 footer{
-  height: 400px;
+  padding: 50px 20px;
+  
   width: 100%;
-  background-color: #005bff;
+  background-color: #192f59;
+  color:white;
 }
+
+footer p {
+  margin-top: -17px;
+  
+}
+
+footer p a{
+  text-decoration: none;
+  color: white;
+}
+
+footer span{
+
+}
+
+
+
+.footer_detail img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+ padding-top: 10px;
+}
+
+
+footer ul li{
+  padding-left: 0px;
+}
+
+
 .container_contact p {
   margin: 0;
 }
