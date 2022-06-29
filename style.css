@@ -10,22 +10,40 @@ body
 
     font-family: 'poppins',sans-serif;
 }
+
+#language_button{
+  font-family: 'poppins',sans-serif;
+  padding: 1px 6px;
+  border-radius: 90px;
+  background-color: white;
+  color: #005bff;
+  outline: 0;
+  border: 1px solid #005bff;
+}
 header{
   height: 100px;
-  width: ;
-  margin: 0;
   background-color: aliceblue;
-}
+  position: fixed;
+  margin-top: 0;
+  z-index: 999;
+ }
+
+
 #header_logo{
   background-color: aliceblue;
   width: 100%;
-padding: 10px 0%;
+padding: 0px 0%;
 margin: auto;
   width: 80%;
   display: block;
   float: left;
   
 
+}
+
+.section_main{
+  /* background-color: yellow; */
+  padding-top: 100px;
 }
 
 /* NAVIGATION STYLE */
@@ -36,7 +54,7 @@ margin: auto;
   color: blue;
   font-size: 2rem;
   right: 20px;
-  top: 20px;
+  top: 30px;
   cursor: pointer;
   z-index: 100;
 }
@@ -58,7 +76,7 @@ margin: auto;
    color:#005bff ;
   font-size: 2rem;
   right: 20px;
-  top: 20px;
+  top: 30px;
   cursor: pointer;
 }
 
@@ -423,7 +441,7 @@ footer p a{
 }
 
 footer span{
-
+ font-size: 11px;
 }
 
 
