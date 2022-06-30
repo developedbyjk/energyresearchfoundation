@@ -31,10 +31,10 @@ body
   font-family: 'poppins',sans-serif;
   padding: 1px 6px;
   border-radius: 90px;
-  background-color: white;
-  color: #005bff;
+  background-color: #192f59;
+  color: #ffc107;
   outline: 0;
-  border: 1px solid #005bff;
+  border: 1px solid #192f59;
 }
 header{
   height: 100px;
@@ -46,6 +46,7 @@ header{
 
 
 #header_logo{
+  
   background-color: aliceblue;
   width: 100%;
 padding: 0px 0%;
@@ -80,7 +81,7 @@ margin: auto;
   right: 0;
   height: 100%;
   width: 0px;
-  background-color:whitesmoke;
+  background-color:#192f59;
   overflow: hidden;
   transition: 0.3s ease-out;
   border-radius: ;
@@ -89,7 +90,7 @@ margin: auto;
 
 .close_nav_icon{
   position: absolute;
-   color:#005bff ;
+   color:#ffc107 ;
   font-size: 2rem;
   right: 20px;
   top: 30px;
@@ -107,7 +108,7 @@ margin: auto;
 .content a{
   padding: 10px;
   text-decoration: none;
-  color: #005bff;
+  color: #ffc107;
   font-family: 'poppins','sans-serif';
   display: block;
   font-size: 2rem;
@@ -120,7 +121,7 @@ margin: auto;
   height: 2px;
   border:0px;
   outline: 0px;
-  background-color:#005bff;
+  background-color:#ffc107;
 }
 
 /* THIS IS FOR STYLE OF SLIDER */
@@ -250,12 +251,12 @@ background: linear-gradient(180deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Fir
 .member_box{
      height: auto;
      width: 200px;
-     background-color: dodgerblue;
+     background-color: #192f59;
      margin: 10px;
-     color: white;
+     color: #ffc107;
      text-align: center;
      border-radius: 5px;
-     z-index:9;
+     z-index:;
      border:1px solid black;
      overflow: hidden;
    
