@@ -5,6 +5,21 @@ $(window).load(function() {
     $(".loader").fadeOut("slow");
 });
 
+$(function(){
+
+    $("#language_button").click(function(){
+       
+        $(".language_section").toggle();
+    })
+
+    $("#language_cross").click(function(){
+       
+        $(".language_section").css({"display":"none"});
+    })
+
+
+})
+
 // HERS LITTLE JS FOR THE WORKING OF ACCORDIAN
 var button = document.getElementsByClassName("accordion");
 var i;

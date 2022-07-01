@@ -1,5 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+.language_section{
+  position: fixed;
+  z-index: 9999999;
+  height: 100vh;
+  width: 100%;
+  background-color: #192f59;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+ text-align: center;
+ /* display: none; */
+
+}
+
+.language_section a{
+  background-color: white;
+  padding: 12px;
+  border: 1px solid gray;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+.language_section a:hover{
+  background-color: #192f59;
+  color: white;
+}
+
+#language_cross{
+  padding: 10px;
+font-size: 1.5rem;
+  margin-top: 50px;
+  position: fixed;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
 .loader {
 height: 100vh;
 
@@ -35,6 +76,7 @@ body
   color: #ffc107;
   outline: 0;
   border: 1px solid #192f59;
+  cursor: pointer;
 }
 header{
   height: 100px;
