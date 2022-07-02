@@ -178,19 +178,9 @@ margin: auto;
     
 }
 
-#no1{
-    border: 1px solid #005bff;
-    background-color: whitesmoke;
-}
 
-.slider_box h1{
-  text-align: center;
-  font-weight:900;
-  font-size: 2.5rem;
-  background: -webkit-linear-gradient(right,#1488CC, #2B32B2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
+
 
 #slider_box_img{
   
