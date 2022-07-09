@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Energy Research Foundaiton</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body{
-            background-color: aliceblue;
-        }
-        h1{
-            font-family: 'Playfair Display', serif;
-            text-align: center;
-            font-weight: 800;
-}
-        
-        </style>
+      <!-- THIS LINKS ARE FOR FONTS DONT MIND -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="language_section">
+        <p><mark>Click to Select Language</mark></p>
+        <a href="index.html">English</a>
+        <a href="hindi.html">हिंदी </a>
+        <a href="gujarati.html">ગુજરાતી</a>
+        <span class="material-symbols-outlined" id="language_cross">
+            close
+            </span>
+    </div>
+    <div class="loader">
+        <p>Welcome to Energy Research Foundation<br/><br/><i>(please wait while website is loading)</i></p>
+    </div>
+    <header>
+
+        <br/>
+        
+        <center>
+        <button id="language_button" >Language</button>
+        </center>
+        <!-- LOGO HERE -->
+        <img src="circle_logo.svg" id="header_logo">
+        <h4 id="hname">Energy Research <br/>Foundation</h4>
+        
+        <nav>
+            <div class="nav_symbol">
+                <span class="material-symbols-outlined" onclick="opennav()">
+                    menu
+                    </span>
+                </div>
+            
+            <div class="nav_panel" id="panelid">
+                <span class="material-symbols-outlined close_nav_icon" onclick="closenav()">
+                    close
+                    </span>
+               
+            
+            <div class="content">
+               
+               <a href="index.html">Home</a>
+               <hr style="width:100%" id="navline">
+               <a href="about.html">About us</a>
+               <hr style="width:100%" id="navline">
+               <a href="members.html">Members</a>
+               <hr style="width:100%" id="navline">
+               <a href="contact.html">contact</a>
+               <hr style="width:100%" id="navline">
+               <a href="photos.html">Photos</a>
+               <hr style="width:100%" id="navline">
+            
+            </div>
+            </div>
+        </nav>
+    </header>
+
 
     <div class="container_contact">
 
@@ -29,12 +83,12 @@
         <span class="material-symbols-outlined">
             call
         </span>
-            90167 10017
+            90167 10017<button>call now</button>
             <br/>
         <span class="material-symbols-outlined">
             call
         </span>
-             95583 66049
+             95583 66049<button>call now</button>
     </div>
     <hr style="width:80%, float: left;">
 
@@ -42,7 +96,7 @@
         <span class="material-symbols-outlined">
             mail
             </span>
-            <p>energyresearchfoundation@gmail.com</p>
+            <p>energyresearchfoundation@gmail.com</p><button>Email now</button>
     </div>
     <hr style="width:80%, float: left;">
     <div class="email">
@@ -54,6 +108,72 @@
     <hr style="width:80%, float: left;">
 
     </div>
+    <footer>
+        <div class="footer_detail">
+            
+            <img src="circle_logo.svg" >
+            
+            <h3>Energy Research Foundaiton</h3>
+            <p>Satlasan, Mehsana, Gujarat, Inida</p>
+            <br/>
+        
+            <p><span class="material-symbols-outlined">
+                call
+            </span> <a href="te:"> 90167 10017 </a>
+            </p>
+
+            <p><span class="material-symbols-outlined">
+                call
+            </span><a href="te:"> 95583 66049 </a>
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    mail
+                    </span>
+                    <a href="#">energyresearchfoundation@gmail.com</a>
+                </p>
+
+                <hr id="hr">
+                <br/>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="index.html">Home</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="about.html">Avout us</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="members.html">Members</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="contact.html">Contact</a>
+                    
+                </p>
+               
+                
+            </p>
+
+                <hr id="hr">
+                <br/>
+                <div class="footer_social">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+        </div>
+ 
+        
+
+    </footer>
+    <script src="script.js"></script>
+
 
 </body>
 </html>

@@ -20,50 +20,61 @@
       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div id="google_translate_element"></div>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div class="language_section">
+        <p><mark>Click to Select Language</mark></p>
+        <a href="index.html">English</a>
+        <a href="hindi.html">हिंदी </a>
+        <a href="gujarati.html">ગુજરાતી</a>
+        <span class="material-symbols-outlined" id="language_cross">
+            close
+            </span>
+    </div>
+    <div class="loader">
+        <p>Welcome to Energy Research Foundation<br/><br/><i>(please wait while website is loading)</i></p>
+    </div>
+    <header>
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script> -->
-
-<header>
-    <!-- LOGO HERE -->
-    <img src="circle_logo.svg" id="header_logo">
-</header>
-
-
-
+        <br/>
         
-    <nav>
-        <div class="nav_symbol">
-            <span class="material-symbols-outlined" onclick="opennav()">
-                menu
-                </span>
+        <center>
+        <button id="language_button" >Language</button>
+        </center>
+        <!-- LOGO HERE -->
+        <img src="circle_logo.svg" id="header_logo">
+        <h4 id="hname">Energy Research <br/>Foundation</h4>
+        
+        <nav>
+            <div class="nav_symbol">
+                <span class="material-symbols-outlined" onclick="opennav()">
+                    menu
+                    </span>
+                </div>
+            
+            <div class="nav_panel" id="panelid">
+                <span class="material-symbols-outlined close_nav_icon" onclick="closenav()">
+                    close
+                    </span>
+               
+            
+            <div class="content">
+               
+               <a href="index.html">Home</a>
+               <hr style="width:100%" id="navline">
+               <a href="about.html">About us</a>
+               <hr style="width:100%" id="navline">
+               <a href="members.html">Members</a>
+               <hr style="width:100%" id="navline">
+               <a href="contact.html">contact</a>
+               <hr style="width:100%" id="navline">
+               <a href="photos.html">Photos</a>
+               <hr style="width:100%" id="navline">
+            
             </div>
-        
-        <div class="nav_panel" id="panelid">
-            <span class="material-symbols-outlined close_nav_icon" onclick="closenav()">
-                close
-                </span>
-           
-        
-        <div class="content">
-           
-           <a href="#">Home</a>
-           <hr style="width:100%" id="navline">
-           <a href="about.html">About us</a>
-           <hr style="width:100%" id="navline">
-           <a href="#">More</a>
-           <hr style="width:100%" id="navline">
-           <a href="contact.html">contact</a>
-           <hr style="width:100%" id="navline">
-        
-        </div>
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
+    <section class="about_section">
+        <h1 style="text-align:center;">About Us</h1>
 <p>Energy Research Foundation works to bring out Talent from the youth and provide them platform to showcase their talent. Moreover we Encourages Students by giving them Books, Uniform, and Scholarship.</p>
 
 <p> Energy Research Foundation Arrange Functions, Seminars to spread awareness regarding energy saving and electricity and work under Government Guidance to generate Energy from Sea, Wind, Canal, Bio etc</p>
@@ -151,8 +162,72 @@ function googleTranslateElementInit() {
 </div>
 
 
+  <footer>
+        <div class="footer_detail">
+            
+            <img src="circle_logo.svg" >
+            
+            <h3>Energy Research Foundaiton</h3>
+            <p>Satlasan, Mehsana, Gujarat, Inida</p>
+            <br/>
+        
+            <p><span class="material-symbols-outlined">
+                call
+            </span> <a href="te:"> 90167 10017 </a>
+            </p>
 
-</footer>
-<script src="script.js"></script>
+            <p><span class="material-symbols-outlined">
+                call
+            </span><a href="te:"> 95583 66049 </a>
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    mail
+                    </span>
+                    <a href="#">energyresearchfoundation@gmail.com</a>
+                </p>
+
+                <hr id="hr">
+                <br/>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="index.html">Home</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="about.html">Avout us</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="members.html">Members</a>
+                    
+                </p>
+                <p>
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt </span>   <a href="contact.html">Contact</a>
+                    
+                </p>
+               
+                
+            </p>
+
+                <hr id="hr">
+                <br/>
+                <div class="footer_social">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+        </div>
+ 
+        
+
+    </footer>
+    <script src="script.js"></script>
+
+
 </body>
 </html>
