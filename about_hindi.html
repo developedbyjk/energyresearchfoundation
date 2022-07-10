@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Research Foundaiton</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- THIS LINKS ARE FOR FONTS DONT MIND -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="language_section">
+        <p><mark>Click to Select Language</mark></p>
+        <a href="index.html">English</a>
+        <a href="hindi.html">हिंदी </a>
+        <a href="gujarati.html">ગુજરાતી</a>
+        <span class="material-symbols-outlined" id="language_cross">
+            close
+            </span>
+    </div>
+    <div class="loader">
+        <p>एनर्जी रिसर्च फाउंडेशन में आपका स्वागत है<br/><br/><i>(वेबसाइट लोड होने तक कृपया प्रतीक्षा करें)</i></p>
+    </div>
+    <header>
+        <center>
+        <button id="language_button" >Language</button>
+        </center>
+        <!-- LOGO HERE -->
+        <img src="circle_logo.svg" id="header_logo">
+        <h4>एनर्जी रिसर्च <br>फाउंडेशन</h4>
+        <nav>
+            <div class="nav_symbol">
+                <span class="material-symbols-outlined" onclick="opennav()">
+                    menu
+                    </span>
+                </div>
+            
+            <div class="nav_panel" id="panelid">
+                <span class="material-symbols-outlined close_nav_icon" onclick="closenav()">
+                    close
+                    </span>
+               
+            
+            <div class="content">
+               
+                <a href="hindi.html">होम </a>
+                <hr style="width:100%" id="navline">
+                <a href="about_hindi.html">हमारे बारे में</a>
+                <hr style="width:100%" id="navline">
+                <a href="members_hindi.html">सदस्यों</a>
+                <hr style="width:100%" id="navline">
+                <a href="contact_hindi.html">संपर्क करें</a>
+                <hr style="width:100%" id="navline">
+                <a href="photos.html">तस्वीरें</a>
+                <hr style="width:100%" id="navline">
+            
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section class="about_section">
+        <h1 style="text-align:center;">About Us</h1>
+<p>एनर्जी रिसर्च फाउंडेशन युवाओं में से प्रतिभा को बाहर निकालने और उन्हें अपनी प्रतिभा दिखाने के लिए मंच प्रदान करने का काम करता है। इसके अलावा हम छात्रों को किताबें, वर्दी और छात्रवृत्ति देकर प्रोत्साहित करते हैं।</p>
+
+<p>एनर्जी रिसर्च फाउंडेशन ऊर्जा बचत और बिजली के बारे में जागरूकता फैलाने के लिए समारोहों, सेमिनारों की व्यवस्था करता है और समुद्र, हवा, नहर, जैव आदि से ऊर्जा उत्पन्न करने के लिए सरकारी मार्गदर्शन के तहत काम करता है।</p>
+
+<p>एनर्जी रिसर्च फाउंडेशन समाज की बेहतरी के लिए सरकार की विभिन्न योजनाओं के बारे में जागरूकता फैलाने का काम करता है</p>
+
+<ul>
+    <li>राज्य सरकार और केंद्र सरकार की मदद से नए ऊर्जा अनुसंधान की स्थापना</li>
+    <li>नदियों और नहरों से ऊर्जा उत्पन्न करें </li>
+    <li>सौर परियोजनाओं की स्थापना</li>
+    <li>गांव, पहाड़, पहाड़ी और रेगिस्तानी इलाकों में बिजली पहुंचाएं</li>
+    <li>प्राइमरी स्कूल, हाई स्कूल और कॉलेज चलाएं</li>
+    <li>सिलाई और मेहदी कक्षाओं के माध्यम से महिलाओं को सशक्त बनाने का कार्य</li>
+    <li>समाज के निम्न वर्ग की मदद करता है </li>
+    <li>GEDA के अनुसार काम करें </li>
+</ul>
+
+
+
+
+
+<div class="abovefooter">
+    <center>
+    <h1>एनर्जी रिसर्च फाउंडेशन</h1>
+    <lottie-player id = "ltiabovefooter" src="https://assets3.lottiefiles.com/packages/lf20_7uams4bz/windmill/data.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
+    </center>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="footer_detail">
+
+<img src="circle_logo.svg" >
+
+<h3>एनर्जी रिसर्च फाउंडेशन</h3>
+<p>सतलासन, मेहसाणा, गुजरात, भारत</p>
+<br/>
+
+<p><span class="material-symbols-outlined">
+    call
+</span> <a href="tel:9016710017"> 90167 10017 </a>
+</p>
+
+<p><span class="material-symbols-outlined">
+    call
+</span><a href="tel:9558366049"> 95583 66049 </a>
+</p>
+<p>
+    <span class="material-symbols-outlined">
+        mail
+        </span>
+        <a href="mailto:energyresearchfoundation@gmail.com">energyresearchfoundation@gmail.com</a>
+    </p>
+
+    <hr id="hr">
+    <br/>
+    <p>
+        <span class="material-symbols-outlined">
+            arrow_right_alt </span>   <a href="hindi.html">होम </a>
+        
+    </p>
+    <p>
+        <span class="material-symbols-outlined">
+            arrow_right_alt </span>   <a href="contact_hindi.html">संपर्क करें</a>
+        
+    </p>
+    <p>
+        <span class="material-symbols-outlined">
+            arrow_right_alt </span>   <a href="about_hindi.html">हमारे बारे में</a>
+        
+    </p>
+    <p>
+        <span class="material-symbols-outlined">
+            arrow_right_alt </span>   <a href="members_hindi.html">सदस्यों</a>
+        
+    </p>
+    <p>
+        <span class="material-symbols-outlined">
+            arrow_right_alt </span>   <a href="photos.html">तस्वीरें</a>
+        
+    </p>
+
+    <hr id="hr">
+    <br/>
+</div>
+
+
+</footer>
+<script src="script.js"></script>
+
+
+</body>
+</html>
