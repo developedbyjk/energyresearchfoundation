@@ -232,10 +232,11 @@ margin: auto;
 
 background: linear-gradient(180deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  height: 690px;
+  height: auto;
   width: 100%;
   margin: 100px auto;
   overflow: hidden;
+  text-align: center;
 
 }
 
@@ -248,9 +249,11 @@ background: linear-gradient(180deg, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Fir
 }
 
 .chairman_section p{
+
+  
   margin-top: 0px;
   padding: 20px;
-  text-align: center;
+ 
   color: white;
   font-weight: 600;
 }
@@ -548,4 +551,38 @@ footer ul li{
 .about_section{
 
   padding: 200px 10px;
+}
+
+/* this css is for photos section */
+.photo_container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.photobox{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.photobox img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photobox {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photobox {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
